@@ -1,0 +1,100 @@
+@keyframes Vusal {
+    from {top:0px; left: 0px; background: black;}
+    20% {top:0px; left: 0px; background: blue;}
+    40% {top:100px; left: 250px; background: red;}
+    60% {top:0px; left: 550px; background: green;}
+    80% {top:250px; left: 850px; background:  aqua;}
+    to {top:0px; left: 950px; background: grey;}
+}
+
+#Vusal {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+    animation-name: Vusal;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Vusala {
+    from {top:50px; left: 0px; background: black;}
+    20% {top:50px; left: 50px; background: blue;}
+    40% {top:150px; left: 250px; background:  red;}
+    60% {top:50px; left: 500px; background: green;}
+    80% {top:100px; left: 800px; background:  aqua;}
+    to {top:50px; left: 950px; background: grey;}
+}
+#Vusala {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: Vusala;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Vusalb {
+    from {top:100px; left: 0px; background: black;}
+    20% {top:100px; left: 100px; background: blue;}
+    40% {top:150px; left: 300px; background: red;}
+    60% {top:50px; left: 500px; background:  green;}
+    80% {top:-50px; left: 750px; background: aqua;}
+    to {top:100px; left: 950px; background:  grey;}
+}
+
+#Vusalb {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: Vusalb;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Vusalc {
+    from {top:150px; left: 0px; background: black;}
+    20% {top:-50px; left: 200px; background: blue;}
+    40% {top:50px; left: 350px; background:  red;}
+    60% {top:50px; left: 500px; background: green;}
+    80% {top:0px; left: 700px; background: aqua;}
+    to {top:150px; left: 950px; background:  grey;}
+}
+
+#Vusalc {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: Vusalc;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Vusald {
+    from {top:200px; left: 0px; background: black;}
+    20% {top:-200px; left: 250px; background: blue;}
+    40% {top:-100px; left: 350px; background: red;}
+    60% {top:100px; left: 450px; background: green;}
+    80% {top:50px; left: 650px; background: aqua;}
+    to {top:100px; left: 1050px; background:  grey;}
+}
+#Vusald {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+    animation-name: Vusald;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+#VUSAL {
+    width: 1100px;
+    height: 350px;
+    background-image: url(Arxafon2.jpg);
+    background-size: cover;
+    position: relative;
+}
